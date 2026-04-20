@@ -27,4 +27,11 @@ int main()
     elektronik.tanggalProduksi = 2024 - 5 - 14;
 
     elektronik.printData();
+    Barang nonElektronik;
+    nonElektronik.nama = "Lemari";
+    nonElektronik.jumlah = 10;
+    nonElektronik.kategori = "Non Elektronik";
+    nonElektronik.tanggalProduksi = 2024 - 7 - 23;
+
+    nonElektronik.printData();
 }
