@@ -17,3 +17,14 @@ public:
         cout << "Tanggal Produksi : " << tanggalProduksi << endl;
     }
 };
+
+int main()
+{
+    Barang elektronik;
+    elektronik.nama = "Kipas Angin";
+    elektronik.jumlah = 5;
+    elektronik.kategori = "Elektronik";
+    elektronik.tanggalProduksi = 2024 - 5 - 14;
+
+    elektronik.printData();
+}
